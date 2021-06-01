@@ -1,48 +1,33 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiAdmin", "MultiAdmin\MultiAdmin.csproj", "{457C38EC-1251-4FEA-80D9-2EA10BD18A35}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiAdmin", "MultiAdmin\MultiAdmin.csproj", "{15FABB12-542B-440C-BF1E-2A5D95A6F7C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiAdmin.Tests", "MultiAdmin.Tests\MultiAdmin.Tests.csproj", "{314971BB-616B-4FAE-B375-5A4A670D8626}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C338ED7F-DB3A-42BC-B29D-9DF7F44882CF}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15FABB12-542B-440C-BF1E-2A5D95A6F7C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FABB12-542B-440C-BF1E-2A5D95A6F7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FABB12-542B-440C-BF1E-2A5D95A6F7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FABB12-542B-440C-BF1E-2A5D95A6F7C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{457C38EC-1251-4FEA-80D9-2EA10BD18A35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{457C38EC-1251-4FEA-80D9-2EA10BD18A35}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{457C38EC-1251-4FEA-80D9-2EA10BD18A35}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{457C38EC-1251-4FEA-80D9-2EA10BD18A35}.Debug|x64.Build.0 = Debug|Any CPU
-		{457C38EC-1251-4FEA-80D9-2EA10BD18A35}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{457C38EC-1251-4FEA-80D9-2EA10BD18A35}.Debug|x86.Build.0 = Debug|Any CPU
-		{457C38EC-1251-4FEA-80D9-2EA10BD18A35}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{457C38EC-1251-4FEA-80D9-2EA10BD18A35}.Release|Any CPU.Build.0 = Release|Any CPU
-		{457C38EC-1251-4FEA-80D9-2EA10BD18A35}.Release|x64.ActiveCfg = Release|Any CPU
-		{457C38EC-1251-4FEA-80D9-2EA10BD18A35}.Release|x64.Build.0 = Release|Any CPU
-		{457C38EC-1251-4FEA-80D9-2EA10BD18A35}.Release|x86.ActiveCfg = Release|Any CPU
-		{457C38EC-1251-4FEA-80D9-2EA10BD18A35}.Release|x86.Build.0 = Release|Any CPU
-		{314971BB-616B-4FAE-B375-5A4A670D8626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{314971BB-616B-4FAE-B375-5A4A670D8626}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{314971BB-616B-4FAE-B375-5A4A670D8626}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{314971BB-616B-4FAE-B375-5A4A670D8626}.Debug|x64.Build.0 = Debug|Any CPU
-		{314971BB-616B-4FAE-B375-5A4A670D8626}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{314971BB-616B-4FAE-B375-5A4A670D8626}.Debug|x86.Build.0 = Debug|Any CPU
-		{314971BB-616B-4FAE-B375-5A4A670D8626}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{314971BB-616B-4FAE-B375-5A4A670D8626}.Release|Any CPU.Build.0 = Release|Any CPU
-		{314971BB-616B-4FAE-B375-5A4A670D8626}.Release|x64.ActiveCfg = Release|Any CPU
-		{314971BB-616B-4FAE-B375-5A4A670D8626}.Release|x64.Build.0 = Release|Any CPU
-		{314971BB-616B-4FAE-B375-5A4A670D8626}.Release|x86.ActiveCfg = Release|Any CPU
-		{314971BB-616B-4FAE-B375-5A4A670D8626}.Release|x86.Build.0 = Release|Any CPU
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F143B21-1920-4809-A1B8-70113EEC0FAE}
 	EndGlobalSection
 EndGlobal
