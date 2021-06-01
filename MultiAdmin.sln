@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiAdmin.Tests", "MultiAdmin.Tests\MultiAdmin.Tests.csproj", "{4D1361B6-23C2-4366-A5AA-095D9BDFA4F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{15FABB12-542B-440C-BF1E-2A5D95A6F7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15FABB12-542B-440C-BF1E-2A5D95A6F7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15FABB12-542B-440C-BF1E-2A5D95A6F7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1361B6-23C2-4366-A5AA-095D9BDFA4F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1361B6-23C2-4366-A5AA-095D9BDFA4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1361B6-23C2-4366-A5AA-095D9BDFA4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1361B6-23C2-4366-A5AA-095D9BDFA4F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
